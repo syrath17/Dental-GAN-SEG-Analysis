@@ -25,3 +25,18 @@ The segmentation process is based on YOLOv8 model
 
 
 \## aggiungere descrizione di come si lanciano i vari script
+
+The **SEGMENTATION** and **GAN** directories contain the kaggle notebooks in which the model training was developed. Each notebook imports the necessary datasets from a google drive in which they are stored.
+- GAN
+    - pix2pix: in this notebook a pix2pix model is trained to generate realistic 256x256 orthopanoramic images from a segmentation mask.
+    - realesrgan-training: in this notebook the real-ESRGAN Super Resolution model is trained to upscale orthopanoramic images from 256x256 to 512x512.
+    - styleGAN2-ADA: in this notebook a styleGAN2-ADA model is trained to generate realistic 256x256 orthopanoramic synthetic images from scratch.
+- SEGMENTATION
+    - yolo_aug: in this notebook a YOLOV8-seg model is trained to correctly identify and segmentate teeth structures on real orthopanoramic images.
+
+
+The **EVAL_ABL** directory contains kaggle notebooks in which evaluation and ablation studies were conducted.
+- EVAL_ABL
+    - notebook 1 descrizione
+    - notebook 2 descrizione
+  
