@@ -23,8 +23,7 @@ The segmentation process is based on YOLOv8 model
 
 # Evaluation and Ablation study
 
-
-\## aggiungere descrizione di come si lanciano i vari script
+# REPOSITORY STRUCTURE
 
 The **SEGMENTATION** and **GAN** directories contain the kaggle notebooks in which the model training was developed. Each notebook imports the necessary datasets from a google drive in which they are stored.
 - GAN
