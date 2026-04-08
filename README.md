@@ -5,7 +5,7 @@ The whole project and all of its models have been trained on Kaggle utilising it
 
 This repository includes:
 - Training and testing codes;
-- A link to the datasets used;
+-[A link to the datasets used;](https://drive.google.com/drive/u/0/folders/1SoLyhwrIlIb3yWc00GjHQ1wihF4UbhC7)
 - Project presentation
 
 The project has been handled in sections and this repository is structured following that same logic.
